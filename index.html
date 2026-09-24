@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bendev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <svg width="0" height="0" aria-hidden="true" focusable="false">
+      <defs>
+        <clipPath id="hero-photo-shape" clipPathUnits="objectBoundingBox">
+          <path
+            d="
+          M 0.06,0
+          H 0.78
+          C 0.84,0 0.86,0.03 0.86,0.08
+          C 0.86,0.14 0.90,0.17 0.96,0.17
+          C 0.99,0.17 1,0.19 1,0.22
+          V 0.94
+          C 1,0.98 0.98,1 0.94,1
+          H 0.22
+          C 0.16,1 0.14,0.97 0.14,0.92
+          C 0.14,0.86 0.10,0.83 0.04,0.83
+          C 0.01,0.83 0,0.81 0,0.78
+          V 0.06
+          C 0,0.02 0.02,0 0.06,0
+          Z
+        "
+          />
+        </clipPath>
+        <clipPath id="service-photo-shape" clipPathUnits="objectBoundingBox">
+          <path
+            d="M 0.03,0.12 L 0.2,0.12 A 0.03,0.03 0,0,0 0.23,0.09 L 0.23,0.03 A 0.03,0.03 0,0,1 0.26,0 L 0.97,0 A 0.03,0.03 0,0,1 1,0.03 L 1,0.97 A 0.03,0.03 0,0,1 0.97,1 L 0.03,1 A 0.03,0.03 0,0,1 0,0.97 L 0,0.15 A 0.03,0.03 0,0,1 0.03,0.12 Z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+    <header>
+      <div class="logo">
+        <img src="images/pro1.png" alt="" />
+      </div>
+      <div class="nav-bi">
+        <label for="menu-bar"><i class="fa fa-bars"></i></label>
+      </div>
+      <input type="checkbox" id="menu-bar" />
+
+      <ul class="nav-links">
+        <label for="menu-bar">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+      </ul>
+      <div class="icons">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </header>
+    <section id="Home" class="Home">
+      <div class="hero">
+        <div class="hero-content">
+          <span class="eyebrow">Bureau des études & génie civil</span>
+          <h1>Façonnons le futur de votre territoire</h1>
+          <p>
+            Des solutions claires et durables pour concevoir, aménager et
+            transformer vos espaces.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#">Decouvrir nos projets</a>
+            <a
+              class="btn icon-btn"
+              href="#Projects"
+              aria-label="Aller aux projets"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="picture">
+          <img src="images/girl1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <div class="title" id="autoShow">About</div>
+      <div class="container">
+        <div class="left scroll-animate-left">
+          <img src="images/route.jpg" alt="" />
+        </div>
+        <div class="right scroll-animate-up">
+          <p class="info">
+            <strong>GSEG-Geomatics & Surveyor Engineering Groups,</strong>
+            créée en 2023, est une entreprise specialisée dans les domaines de
+            la géomatique, de la topographie, de l'ingenieurie et du forage au
+            Cameroun. Forte de son expertise technique et de son experience de
+            terrain, GSEG accompagne ses clients dans la réalisation de levés
+            topographique, travaux d'implantation, lotissements et forages, avec
+            des solution precises, fiable et adaptées à leurs besoins. Notre
+            approche repose sur la rigueur, la précision, la qualité et le
+            professionnalisme, afin de transformer chaque besoin en une solution
+            concrète et durable. GSEG - Votre partenaire pour des projets
+            précis, securisés et réalisés avec professionnalisme.
+          </p>
+          <div class="stats">
+            <div class="table-box">
+              <span class="stat-number">+100</span>
+              <span class="stat-label">Projets réalisés</span>
+            </div>
+            <div class="table-box">
+              <span class="stat-number">+3</span>
+              <span class="stat-label">Années d'expérience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Services">
+      <div class="title" id="autoShow">Services</div>
+      <p id="autoShow" class="services-intro">
+        Des expertises techniques au service de vos projets et territoires
+      </p>
+      <div class="service-wrapper">
+        <div class="service service-left scroll-animate-left">
+          <div class="service-card">
+            <img src="images/ing1.png" alt="" />
+          </div>
+          <div class="service-text">
+            <div class="service-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h3>Géomatique</h3>
+            <p>
+              Nous exploitons les technologie et données géospatiales pour
+              collecter, analyser, et répresenter avec précision les information
+              liées au territoire. Nos solutions permettent d'ameliorer la
+              planification, l'aménagement et la prise de décision pour
+              differents types de projets.
+            </p>
+          </div>
+        </div>
+        <div class="service service-right">
+          <div class="service-card">
+            <img src="images/ing4.png" alt="" />
+          </div>
+          <div class="service-text">
+            <div class="service-icon">
+              <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+
+            <h3>Topographie</h3>
+            <p>
+              Nous réalisons des levés topographiques, des travaux
+              d'implantation et des opérations de lotissements avec rigueur et
+              précision.Nos interventions permettent de disposer de données
+              fiables sur terrain et de garantir une meilleure prération ainsi
+              qu'un suivi efficace de vos projets.
+            </p>
+          </div>
+        </div>
+        <div class="service service-left scroll-animate-left">
+          <div class="service-card">
+            <img src="images/ing2.png" alt="" />
+          </div>
+          <div class="service-text">
+            <div class="service-icon">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+
+            <h3>Génie civil</h3>
+            <p>
+              Nous accompagnons nos clients dans leur projets d'aménagement et
+              de construction à travers des études et des solutions techniques
+              adaptées. Notre expertise nous permet de prendre en compte les
+              contraintes du terrains afin de contribuer à des réalisation
+              solides, durables et conformes aux exigences du projet.
+            </p>
+          </div>
+        </div>
+        <div class="service service-right">
+          <div class="service-card">
+            <img src="images/ing3.jpg" alt="" />
+          </div>
+          <div class="service-text">
+            <div class="service-icon">
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+
+            <h3>Forage</h3>
+            <p>
+              Nous réalisons des travaux de forage adaptés aux caracteristiques
+              géologiques et aux besoins spécifiques de chaque site. Notre
+              objectif est de fournir des solutions fiables et durables
+              permettant un accès securisé aux ressources en eau, tout en tenant
+              comptes des contraintes techniques du terrain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Projects">
+      <div class="title" id="autoShow">Nos réalisations</div>
+
+      <div class="projects-wrapper">
+        <!-- Slider des logos -->
+        <div
+          class="logos-slider"
+          style="--width: 100px; --height: 50px; --quantity: 6"
+        >
+          <div class="logos-list">
+            <div class="logo-item" style="--position: 1">
+              <img src="images/log1.png" alt="Logo projet 1" />
+            </div>
+
+            <div class="logo-item" style="--position: 2">
+              <img src="images/log2.png" alt="Logo projet 2" />
+            </div>
+
+            <div class="logo-item" style="--position: 3">
+              <img src="images/log3.png" alt="Logo projet 3" />
+            </div>
+
+            <div class="logo-item" style="--position: 4">
+              <img src="images/log4.png" alt="Logo projet 4" />
+            </div>
+
+            <div class="logo-item" style="--position: 5">
+              <img src="images/log5.png" alt="Logo projet 5" />
+            </div>
+
+            <div class="logo-item" style="--position: 6">
+              <img src="images/log6.png" alt="Logo projet 6" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Grille des projets -->
+        <div class="projects-grid tab">
+          <div class="project-card">
+            <span>01</span>
+            <img src="images/bol1.jpg" alt="" />
+            <div class="des">Prise de vues aériennes à Yaounde</div>
+          </div>
+
+          <div class="project-card">
+            <span>02</span>
+            <img src="images/bol2.jpg" alt="" />
+            <div class="des">Lévée topographique à Douala</div>
+          </div>
+
+          <div class="project-card">
+            <span>03</span>
+            <img src="images/bol3.jpg" alt="" />
+            <div class="des">Prise de vues aériennes à Douala</div>
+          </div>
+          <div class="project-card">
+            <span>04</span>
+            <img src="images/bol4.jpg" alt="" />
+            <div class="des">Travaux de forage à Kribi</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contacts" class="contact-section">
+      <div class="title" id="autoShow">Parlons de votre projet</div>
+      <p class="contact-intro" id="autoShow">
+        Une idée, un terrain ou un besoin technique ? Notre équipe vous
+        accompagne depuis l'étude jusqu'à la réalisation.
+      </p>
+
+      <div class="contact-layout">
+        <div class="contact-details">
+          <div class="contact-heading">
+            <span class="eyebrow">GSEG / Contact</span>
+            <h2>Présents à Yaounde, Kribi et Douala</h2>
+            <p>
+              Deux points d'opération pour rester proches de vos projets et
+              intervenir avec précision sur l'ensemble du territoire.
+            </p>
+          </div>
+
+          <div class="operation-cities">
+            <article class="city-card">
+              <span class="city-icon"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              <div>
+                <h3>Kribi</h3>
+                <p>Point d'opération · Région du Sud</p>
+              </div>
+            </article>
+            <article class="city-card">
+              <span class="city-icon"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              <div>
+                <h3>Douala</h3>
+                <p>Point d'opération · Région du Littoral</p>
+              </div>
+            </article>
+            <article class="city-card">
+              <span class="city-icon"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              <div>
+                <h3>Yaounde</h3>
+                <p>Point d'opération · Région du Centre</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="contact-socials">
+            <h3>Suivez nos actualités</h3>
+            <div class="social-links" aria-label="Réseaux sociaux">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.whatsapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="YouTube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a
+                href="https://www.tiktok.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="TikTok"
+              >
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/z.jeanalfred@gmail.com"
+          method="POST"
+        >
+          <div class="form-topline">
+            <span>Demande de devis</span>
+            <i
+              class="fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <label for="contact-name">Nom complet</label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            placeholder="Votre nom"
+            required
+          />
+
+          <label for="contact-email">Adresse e-mail</label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            placeholder="vous@exemple.com"
+            required
+          />
+
+          <label for="contact-message">Votre projet</label>
+          <textarea
+            id="contact-message"
+            name="message"
+            rows="4"
+            placeholder="Parlez-nous de votre besoin"
+            required
+          ></textarea>
+
+          <button class="btn primary contact-submit" type="submit">
+            Envoyer la demande <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
