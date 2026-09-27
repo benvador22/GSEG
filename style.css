@@ -267,7 +267,7 @@ header ul {
 @keyframes AutoShowAnimation {
   from {
     opacity: 0;
-    transform: translateY(100px) scale(0.3);
+    transform: translateY(150px) scale(0.3);
   }
   to {
     opacity: 1;
@@ -299,14 +299,14 @@ header ul {
 .service-right {
   flex-direction: row-reverse;
   animation: showContent both;
-  animation-timeline: view(75% 15%);
+  animation-timeline: view(85% 5%);
 }
 
 @keyframes showContent {
   from {
     opacity: 0;
     transform: translateY(50px);
-    filter: blur(30px);
+    filter: blur(20px);
   }
   to {
     opacity: 1;
@@ -1048,7 +1048,8 @@ header ul label {
   }
 
   .picture {
-    height: 400px;
+    height: 100%;
+    width: 100%;
     padding: 5px;
   }
 
@@ -1250,8 +1251,8 @@ header ul label {
   }
 
   .picture {
-    height: 330px;
-    width: 330px;
+    height: 100%;
+    width: 100%;
   }
 
   .hero-actions {
