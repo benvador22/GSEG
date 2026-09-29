@@ -796,7 +796,7 @@ header ul label {
     display: flex;
     align-items: start;
     position: absolute;
-    left: calc(-8% + 140px);
+    left: calc(5% + 140px);
   }
 
   .nav-bi label {
