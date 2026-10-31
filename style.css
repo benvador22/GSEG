@@ -35,8 +35,9 @@ header {
   backdrop-filter: blur(18px);
   z-index: 10;
 }
+
 section {
-  padding: 80px 10% 40px;
+  padding: 90px 10% 40px;
   min-height: auto;
 }
 header a {
